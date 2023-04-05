@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background: hsla(185, 64%, 51%, 1);
+
+    background: linear-gradient(360deg, hsla(185, 64%, 51%, 1) 51%, hsla(204, 95%, 77%, 1) 100%);
+    
+    background: -moz-linear-gradient(360deg, hsla(185, 64%, 51%, 1) 51%, hsla(204, 95%, 77%, 1) 100%);
+    
+    background: -webkit-linear-gradient(360deg, hsla(185, 64%, 51%, 1) 51%, hsla(204, 95%, 77%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#30C5D2", endColorstr="#8DD0FC", GradientType=1 );
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+h2{
+   text-align: center;
+   margin: 40px 0 20px 0;
+   font-family: 'Jost', sans-serif;
+   color: #001219;
+   font-size: 40px;
+}
+
+
+.main-content {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*  score boxes  */
+
+.box1{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+     display: flex;
+     background-color: #00a1b3;
+    flex-direction: column;
+    border-radius: 50px;
+     
+}
+
+.box1 h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Oxanium', cursive;
+    color: #000000;
+}
+
+
+.box2{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: #00a1b3;
+    border-radius: 50px;
+}
+
+
+.box2 .textarea2{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top:20px ;
+    background-color: #1b1b1b;
+    color:#a9d3d7 ;
+    border-radius: 15px;
+    
+   }
+
+.box2 h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Oxanium', cursive;
+    color: #0e0f0f;
+}   
+
+
+.main-content .box1 .textarea{
+    margin-left: auto;
+    margin-right:auto ;
+    height: 100px;
+    width: 100px;
+    margin-top: 2px;
+    color:#8ecae6 ;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+}
+.main-content .box1 .textarea h1 {
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.main-content .box2 .textarea2 h1{
+     text-align: center;
+     padding: 30px;
+     
+}
+.btn{
+    text-align: center;
+    margin-top: 10% ;
+     font-family: 'Oxanium', cursive;
+    
+}
+
+.btn button{
+    color: #000000;
+    background-color: #224556;
+    padding: 10px;
+    border: 2px double solid black;
+    cursor: pointer;
+    background-color: #8ecae6;
+    border-radius: 10px;
+  
+}
+.refresh-btn {
+   text-align: center;
+   margin-top: 40px;
+}
+.refresh-btn button{
+    padding:10px 15px;
+    background-color: #00a1b3;
+    border-radius: 10px;
+    border: 1px double solid black;
+    color: #0e0f0f ;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+

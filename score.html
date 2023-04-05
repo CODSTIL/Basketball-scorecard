@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Oxanium:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="score.css">
+
+    <title> Scorecard </title>
+</head>
+<body>
+
+    <h2> Scorecard </h2>
+    <div class="main-content">
+       
+        <div class="box1">
+          <h3> Home </h3>
+             <div class="textarea">
+             <h1 id="score">0</h1>
+          </div>
+       <div class="btn">
+          <button type="button" id="button-1" onclick="add1Point()"> +1</button>
+          <button type="button" id="button-2" onclick="add2Point()"> +2 </button>
+          <button type="button" id="button-3" onclick="add3Point()"> +3</button>
+        </div>
+        </div>
+
+       <div class="box2">
+          <h3> Guest </h3>
+          <div class="textarea2">
+            <h1 id="score2"> 0 </h1>
+         </div>
+      
+     <div class="btn">
+         <button type="button" id="button-11" onclick="add1Points()"> +1</button>
+         <button type="button" id="button-22" onclick="add2Points()"> +2 </button>
+         <button type="button" id="button-33" onclick="add3points()"> +3</button>
+       </div>
+       </div>
+     
+     
+        </div>
+
+        <div class="refresh-btn">
+            <button type="button" onclick="window.location.reload()"> New Game</button>
+        </div>
+
+
+
+     <script src="score.js"></script>
+</body>
+</html>
